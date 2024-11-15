@@ -1,0 +1,147 @@
+.cart {
+    padding: 130px 0 80px 0;
+}
+.cart-top-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-top {
+    height: 2px;
+    width: 70%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.cart-top-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.cart-top-cart{
+    border: 1px solid #0db7ea;
+}
+.cart-top-cart i{
+    color: #0db7ea;
+}
+.cart-content{
+    display: flex;
+}
+.cart-content-left{
+    flex: 2;
+    padding-right: 12px;
+}
+.cart-content-left table{
+    width: 100%;
+    text-align: center;
+}
+.cart-content-left table th{
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #ddd ;
+}
+.cart-content-left table p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+.cart-content-left table input{
+    width: 40px;
+}
+.cart-content-left table span{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #ddd ;
+}
+.cart-content-left table td{
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+.cart-content-left td:first-child img {
+    width: 130px;
+}
+.cart-content-left td:nth-child(2) {
+    max-width: 130px;
+}
+.cart-content-right{
+    flex: 1;
+    padding-left: 12px;
+    border-left: 1px solid #333;
+}
+.cart-content-right table{
+    width: 100%;
+}
+.cart-content-right table th{
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #ddd;
+}
+.cart-content-right table td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    padding: 6px 0;
+    
+}
+.cart-content-right tr:nth-child(1) td {
+    border-bottom: 2px solid #ddd;
+}
+.cart-content-right tr:nth-child(4) td {
+    border-bottom: 2px solid #ddd;
+}
+.cart-content-right tr td:last-child{
+    text-align: right;
+}
+.cart-content-right-button{
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.cart-content-right-button button a{
+  color: white;
+  text-decoration: none;
+}
+.cart-content-right-button button{
+    padding: 0 18px;
+    height: 35px;
+    cursor: pointer;
+}
+.cart-content-right-button button:first-child{
+    background-color: black;
+    color: #fff;
+}
+.cart-content-right-button button:last-child{
+    background-color: black;
+   
+}
+.cart-content-right-button button:first-child:hover{
+    background-color: red;
+    color: rgb(156, 236, 37);
+    transition: 0.3s;
+}
+.cart-content-right-button button:last-child:hover{
+    background-color: red;
+    color: rgb(156, 236, 37);
+    transition: 0.3s;
+}
+.cart-content-right-dangnhap p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+}
